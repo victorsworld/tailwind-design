@@ -15,26 +15,27 @@
   </head>
 
   <body class="">
-    <header class="bg-white">
-      <nav class="bg-grey-100">
-        <div class="max-w-9xl mx-auto px-4 py-8">
-          <div class="flex justify-around">
-            <!-- logo -->
-            <div class="flex space-x-4">
-              <a href="#" class="flex items-center">
-                <img
-                  class="object-scale-down h-18 w-18"
-                  src="https://www.clinton-ind.com/assets/img/clinton-logo.svg"
-                  alt="Clinton Industries, Inc." />
-              </a>
-            </div>
+    <div class="lg:h-screen">
+      <header class="w-full bg-white">
+        <nav class="bg-grey-100">
+          <div class="relative max-w-9xl mx-auto px-4 py-8">
+            <div class="flex justify-around">
+              <!-- logo -->
+              <div class="flex space-x-4">
+                <a href="#" class="flex items-center">
+                  <img
+                    class="object-scale-down h-18 w-18"
+                    src="https://www.clinton-ind.com/assets/img/clinton-logo.svg"
+                    alt="Clinton Industries, Inc." />
+                </a>
+              </div>
 
-            <!-- primary nav -->
-            <div class="hidden md:flex items-center space-x-8">
+              <!-- primary nav -->
+              <div class="hidden md:flex items-center space-x-8">
                 <ul class="flex justify-around space-x-8 text-lg font-light">
                   <li class="hover:text-blue-500"><a href="#">Home</a></li>
-  
-                  <li onclick="toggleDropdown('#dropdown1')">
+
+                  <li class="group">
                     <a class="flex hover:text-blue-500" href="#"
                       >Medical Products
                       <svg
@@ -51,35 +52,100 @@
                     ></a>
                     <ul
                       id="dropdown1"
-                      class="absolute top-[90px] h-[300px] left-[550px] w-[600px] p-4 grid grid-cols-2 hidden rounded shadow-lg bg-white text-md text-gray-600">
-                      <li class="hover:text-blue-500">Medical Cabinets</li>
-                      <li class="hover:text-blue-500">Clinton Ready Room</li>
-                      <li class="hover:text-blue-500">Power, Hi-Lo Tables</li>
-                      <li class="hover:text-blue-500">Exam Tables</li>
-                      <li class="hover:text-blue-500">
-                        Open Base Treatment Tables
-                      </li>
-                      <li class="hover:text-blue-500">
-                        Cabinet Style Treatment Tables
-                      </li>
-                      <li class="hover:text-blue-500">Space Saver Tables</li>
-                      <li class="hover:text-blue-500">Pediatric Equipment</li>
-                      <li class="hover:text-blue-500">Phlebotomy Chairs</li>
-                      <li class="hover:text-blue-500">Phlebotomy Carts</li>
-                      <li class="hover:text-blue-500">
-                        Physical Therapy Equipment
-                      </li>
-                      <li class="hover:text-blue-500">Recovery Couches</li>
-                      <li class="hover:text-blue-500">Taping Tables</li>
-                      <li class="hover:text-blue-500">Medical Seating</li>
-                      <li class="hover:text-blue-500">
-                        Tubular Steel & Accessories
-                      </li>
-                      <li class="hover:text-blue-500">In-Stock & Ready To Go</li>
-                      <li class="hover:text-blue-500">What's New</li>
+                      class="md:hidden group-hover:block group-hover:absolute w-full left-0 p-4 grid grid-cols-2 rounded shadow-lg bg-white text-md text-gray-600">
+                      <div class="">
+                        <!-- container 1 -->
+
+                        <ul class="p-12 grid grid-rows-3 grid-flow-col gap-8">
+                          <!-- section 1 -->
+                          <li class="py-4 text-gray-400 text-xl">KIDS</li>
+                          <ul>
+                            <li class="py-2 text-lg hover:text-blue-500">
+                              Kids Table
+                            </li>
+                            <li class="py-2 text-lg hover:text-blue-500">
+                              Space Saver Table
+                            </li>
+                            <li class="py-2 text-lg hover:text-blue-500">
+                              Power,Hi-Lo, Tables
+                            </li>
+                            <li class="py-2 text-lg hover:text-blue-500">
+                              Funnel Optimization
+                            </li>
+                          </ul>
+                          <div class="">
+                            <ul class="py-4 bg-gray-400">
+                              <li>Best Selling</li>
+                              <li>Browse All</li>
+                            </ul>
+                          </div>
+
+                          <!-- section 2 -->
+                          <li class="py-10 text-gray-400 text-xl">MEDICAL</li>
+                          <ul>
+                            <li class="py-2 text-lg hover:text-blue-500">
+                              Medical Seating
+                            </li>
+                            <li class="py-2 text-lg hover:text-blue-500">
+                              Taping tables
+                            </li>
+                            <li class="py-2 text-lg hover:text-blue-500">
+                              Pediatric Tables
+                            </li>
+                            <li class="py-2 text-lg hover:text-blue-500">
+                              Medical Cabinet
+                            </li>
+                            <li class="py-2 text-lg hover:text-blue-500">
+                              Open Base Tables
+                            </li>
+                          </ul>
+                          <div>
+                            <ul>
+                              New Addition
+                            </ul>
+                            <!-- div 2 -->
+                          </div>
+
+                          <li class="py-10 text-gray-400 text-xl">ADULTS</li>
+                          <ul>
+                            <li class="py-2 text-lg hover:text-blue-500">
+                              Exam Tables
+                            </li>
+                            <li class="py-2 text-lg hover:text-blue-500">
+                              TAbular Steel & Acessories
+                            </li>
+                            <li class="py-2 text-lg hover:text-blue-500">
+                              Open Base Table
+                            </li>
+                            <li class="py-2 text-lg hover:text-blue-500">
+                              Medical Cabinet
+                            </li>
+                            <li class="py-2 text-lg hover:text-blue-500">
+                              Webinars & Trainings
+                            </li>
+                          </ul>
+                          <div>
+                            <ul>
+                              In Stock
+                            </ul>
+                            <!-- div 3 -->
+                          </div>
+
+                          <div>
+                            <li class="py-10 text-gray-400 text-xl">
+                              FEATURED PRODUCTS
+                            </li>
+                            <ul>
+                              <li><img src="#" alt="img" /></li>
+                              <li>Fun Series Treatment Tables</li>
+                            </ul>
+                            <!-- div 4 -->
+                          </div>
+                        </ul>
+                      </div>
                     </ul>
                   </li>
-  
+
                   <li onclick="toggleDropdown('#dropdown2')">
                     <a class="flex hover:text-blue-500" href="#">
                       Resources
@@ -96,18 +162,20 @@
                           d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
                       </svg>
                     </a>
-                    <ul id="dropdown2" class="absolute hidden p-9 grid grid-cols-1 rounded shadow-lg bg-white text-md text-gray-600">
-                      <li class="py-1 hover:text-blue-500 " >Brochures</li>
-                      <li class="py-1 hover:text-blue-500 " >Color Visalizers</li>
-                      <li class="py-1 hover:text-blue-500 " >Video Library</li>
-                      <li class="py-1 hover:text-blue-500 " >Spec Sheets</li>
+                    <ul
+                      id="dropdown2"
+                      class="absolute hidden p-9 grid grid-cols-1 rounded shadow-lg bg-white text-md text-gray-600">
+                      <li class="py-1 hover:text-blue-500">Brochures</li>
+                      <li class="py-1 hover:text-blue-500">Color Visalizers</li>
+                      <li class="py-1 hover:text-blue-500">Video Library</li>
+                      <li class="py-1 hover:text-blue-500">Spec Sheets</li>
                     </ul>
                   </li>
-  
+
                   <li onclick="toggleDropdown('#dropdown3')">
-                    <a class="flex hover:text-blue-500 href="#">
-                        About Us
-                        <svg
+                    <a href="#" class="flex hover:text-blue-500">
+                      About Us
+                      <svg
                         class="w-4 mx-2 stroke-[3px]"
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -120,12 +188,15 @@
                           d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
                       </svg>
                     </a>
-                    <ul id="dropdown3" class="absolute p-9 grid grid-cols-1 hidden rounded shadow-lg bg-white text-md text-gray-600">
-                        <li class="py-1 hover:text-blue-500 " >Company</li>
-                        <li class="py-1 hover:text-blue-500 " >Employment</li>
-                      </ul>
+
+                    <ul
+                      id="dropdown3"
+                      class="absolute p-9 grid grid-cols-1 hidden rounded shadow-lg bg-white text-md text-gray-600">
+                      <li class="py-1 hover:text-blue-500">Company</li>
+                      <li class="py-1 hover:text-blue-500">Employment</li>
+                    </ul>
                   </li>
-  
+
                   <li>
                     <button>
                       <svg
@@ -142,41 +213,46 @@
                       </svg>
                     </button>
                   </li>
-                  
                 </ul>
               </div>
 
-            <!-- secondary nav -->
-            <div class="hidden md:flex items-center">
-              <a
-                href=""
-                class="py-3.5 px-5 bg-blue-500 hover:bg-blue-400 transition duration-300 rounded text-white font-semibold"
-                >Contact Us</a
-              >
-            </div>
+              <!-- secondary nav -->
+              <div class="hidden md:flex items-center">
+                <a
+                  href=""
+                  class="py-3.5 px-5 bg-blue-500 hover:bg-blue-400 transition duration-300 rounded text-white font-semibold"
+                  >Contact Us</a
+                >
+              </div>
 
-            <!-- mobile button -->
-            <div class="md:hidden flex items-center">
-              <button>
-                <svg
-                  class="w-10 h-10"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="w-6 h-6">
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                </svg>
-              </button>
+              <!-- mobile button -->
+              <div class="md:hidden flex items-center">
+                <button>
+                  <svg
+                    class="w-10 h-10"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                  </svg>
+                </button>
+              </div>
             </div>
           </div>
-        </div>
-      </nav>
-    </header>
-    <img src="./Screenshot 2023-11-07 at 5.27.31 PM.png" alt="homepage" />
+        </nav>
+      </header>
+      <div class="h-full">
+        <img
+          class="object-cover lg:h-auto lg:w-auto"
+          src="./Screenshot 2023-11-07 at 5.27.31 PM.png"
+          alt="homepage" />
+      </div>
+    </div>
   </body>
 </html>
